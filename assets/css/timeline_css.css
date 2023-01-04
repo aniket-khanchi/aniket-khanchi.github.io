@@ -89,7 +89,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #6e1e46;
+  background-color: #0d6efd;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
@@ -138,7 +138,7 @@
   border-radius: 50%;
   border-width: 2px;
   border-style: solid;
-  border-color: #6e1e46;
+  border-color: #0d6efd;
   background-color: #f7f7f7;
   transition: background-color 0.3s, border-color 0.3s, top 0.3s;
 }
@@ -159,7 +159,7 @@
 
 .h--timeline-date:hover::after {
   background-color: #f7f7f7;
-  border-color: #6e1e46;
+  border-color: #0d6efd;
 }
 
 .h--timeline-date--selected {
@@ -168,16 +168,16 @@
 
 .h--timeline-date--selected::after {
   background-color: #f7f7f7;
-  border-color: #6e1e46;
+  border-color: #0d6efd;
 }
 
 .h--timeline-date--selected::before {
-  background-color: #6e1e46;
+  background-color: #0d6efd;
 }
 
 .h--timeline-date--older-event::after {
-  background-color: #6e1e46;
-  border-color: #6e1e46;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 /* Caroussel navigation */
@@ -215,7 +215,7 @@
 }
 
 .h--timeline-navigation:hover {
-  border-color: #6e1e46;
+  border-color: #0d6efd;
 }
 
 .h--timeline-navigation--prev {
@@ -354,17 +354,17 @@
 /* --------------------------------------- */
 
 .h--timeline-date::after, .h--timeline-date::before {
-  background-color: #6e1e46;
+  background-color: #0d6efd;
 }
 
 .h--timeline-date--selected::after {
   background-color: #f7f7f7;
-  border-color: #6e1e46;
+  border-color: #0d6efd;
 }
 
 .h--timeline-date--older-event::after {
-  background-color: #6e1e46;
-  border-color: #6e1e46;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
 }
 
 .h--timeline-line li:nth-child(even) .h--timeline-date {
@@ -376,7 +376,7 @@
   height: 21px;
   bottom: -11px;
   background-color: #f7f7f7;
-  border-color: #6e1e46;
+  border-color: #0d6efd;
 }
 
 .h--timeline-line li:nth-child(even) .h--timeline-date::after {
