@@ -6,10 +6,6 @@
   outline: 0;
 }
 
-.a {
-  list-style-type: circle;
-}
-
 .h--timeline-container, .h--timeline-events {
   position: relative;
   width: 100%;
@@ -176,7 +172,7 @@
 }
 
 .h--timeline-date--selected::before {
-  background-color: #0d6efd;
+  background-color: #6e1e46;
 }
 
 .h--timeline-date--older-event::after {
@@ -388,20 +384,6 @@
 }
 
 .h--timeline-line li:nth-child(even) .h--timeline-date:hover::after, .h--timeline-line li:nth-child(even) .h--timeline-date--selected::after {
-  bottom: 37px;
-}
-
-.h--timeline-line li:nth-child(even) .h--timeline-date::before {
-  bottom: 45px;
-}
-
-.h--timeline-line li:nth-child(odd) .h--timeline-date:hover::before, .h--timeline-line li:nth-child(odd) .h--timeline-date--selected::before {
-  bottom: -3px;
-}
-
-/*  */
-
-e-date:hover::after, .h--timeline-line li:nth-child(even) .h--timeline-date--selected::after {
   bottom: 37px;
 }
 
