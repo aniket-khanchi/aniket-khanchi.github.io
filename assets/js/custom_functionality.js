@@ -5,6 +5,8 @@ function onload_function(){ /* this is the jQuery equivalent of documents.ready 
 
     /* all scripting you do should go inside here for example */
 
+    
+
     var len_cont = document.getElementsByClassName("fade_div").length ;
     for (let i = 0; i < len_cont; i++) {
         document.getElementsByClassName("fade_div")[i].style.display = "none";

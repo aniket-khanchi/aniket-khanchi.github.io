@@ -22,7 +22,6 @@
   top: 0;
   width: 40px;
   z-index: 2;
-  -webkit-animation: pulsate 1s ease-out infinite;
   animation: pulsate 1s ease-out infinite;
 }
 
@@ -95,7 +94,6 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -111,7 +109,7 @@
   color: black;
 }
 
-#portfolio h2::after {
+h2::after {
   background-color: #e5c37f;
   width: 100px;
   height: 3px;
@@ -130,5 +128,36 @@
 
 #portfolio .into p {
   margin-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+  #id1 {
+    background-color: red;
+  }
+}
+
+@media (min-width: 768px) {
+  ..btn_div {
+    /*width: 20% !important;*/
+  }
+}
+
+@media (min-width: 992px) {
+  .nav_col {
+    width: 15%;
+    max-width: 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  #infra_nav {
+    display: none;
+  }
+}
+
+#ul_nav a:hover {
+  background-color: #ffbf00;
+  /*color: white;*/
+  text-decoration-color: #ffbf00;
 }
 

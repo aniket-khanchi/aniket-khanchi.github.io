@@ -90,10 +90,8 @@
   height: 100%;
   width: 100%;
   background-color: #0d6efd;
-  -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transform-origin: left center;
   -ms-transform-origin: left center;
   transform-origin: left center;
   transition: -webkit-transform 0.3s;
@@ -114,7 +112,6 @@
   font-weight: 600;
   padding-bottom: 0.75rem;
   color: #000;
-  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -129,7 +126,6 @@
   content: '';
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: -8px;
@@ -189,7 +185,6 @@
   position: absolute;
   z-index: 1;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   height: 34px;
@@ -208,7 +203,6 @@
   width: 16px;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAABQUlEQVRIS9XUwWrCQBAG4JnEhiRHBQut+AY+gEq8tLSvUuih9Ek8iL5K0YMEvPkEHjwo2lYQek2IMdOJJ7tuki5LDnoKyHzZnZn8CJo/1KwHKfB299iMKcHh93Rd9IIL4OX2qX5j0QwRLTpG3uDT3+YhF8B747kaY+Iz0OLCVRxE7dHe32Uh0iucI0SwhIPZGew+9jIks4l/EIAFRGZPhuROQUQqCXb72/HP+UnKA7SuoNVEsfgYRp7SGF/vH2qmacwB0CjagbSZmat8AINGX5ON8ioXFYj/l/M1qpyinBMEQdBMG+w4jnoeEFE9DMMZAxY/e67rquUBF1UZ8Bk45YFt223OBrU8EJAlIx1G1PJAQBaM9GRI7hQkSJeR/+eBFqB1Ba0mSoo9pTEyUOM94DwAo2gHMvMgXWWGiLfwCvLgF1jY2yHNUya7AAAAAElFTkSuQmCC) no-repeat 0 0;
@@ -220,7 +214,6 @@
 
 .h--timeline-navigation--prev {
   left: 0;
-  -webkit-transform: translateY(-50%) rotate(180deg);
   -ms-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
 }
@@ -257,14 +250,11 @@
   width: 100%;
   left: 0;
   top: 0;
-  -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   padding: 1px 5%;
   opacity: 0;
-  -webkit-animation-duration: 0.4s;
   animation-duration: 0.4s;
-  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
 
@@ -281,7 +271,6 @@
   position: relative;
   z-index: 2;
   opacity: 1;
-  -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
 }
@@ -291,12 +280,10 @@
 /* --------------------------------------- */
 
 .h--timeline-event--enter-right, .h--timeline-event--leave-right {
-  -webkit-animation-name: cd-enter-right;
   animation-name: cd-enter-right;
 }
 
 .h--timeline-event--enter-left, .h--timeline-event--leave-left {
-  -webkit-animation-name: cd-enter-left;
   animation-name: cd-enter-left;
 }
 
