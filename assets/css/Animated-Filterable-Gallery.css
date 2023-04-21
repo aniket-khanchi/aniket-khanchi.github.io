@@ -22,6 +22,7 @@
   top: 0;
   width: 40px;
   z-index: 2;
+  -webkit-animation: pulsate 1s ease-out infinite;
   animation: pulsate 1s ease-out infinite;
 }
 
@@ -94,6 +95,7 @@
 }
 
 * {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }

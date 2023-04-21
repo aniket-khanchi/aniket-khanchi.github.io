@@ -1,6 +1,22 @@
 $(document).ready(function () {
     
-    // For infra pages
+    var lin = document.querySelectorAll('.h--timeline-line > ol > li');
+	id = setInterval(frame, 4000);
+	var j = 0 ;
+	function frame() {
+	if (j === lin.length) {
+	j = 0 ;
+	} else {
+	lin[j].childNodes[0].click();
+	  if (j === lin.length){
+		  j = 0 ;
+	  } else { j +=1 ;}
+	}
+	};
+	
+	
+	
+	// For infra pages
     $('#machine_shop_row').hide() ;
     $('#tool_room_row').hide() ;
     $('#standard_room_row').hide() ;
