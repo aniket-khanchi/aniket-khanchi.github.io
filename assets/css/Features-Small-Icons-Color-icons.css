@@ -55,3 +55,8 @@
   border-radius: 50%;
 }
 
+.particles-js-canvas-el {
+  position: absolute;
+  z-index: -1;
+}
+
