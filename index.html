@@ -30,10 +30,10 @@
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/pro_design.png');background-position: inherit;/*backdrop-filter: blur(0px) grayscale(0%);-webkit-backdrop-filter: blur(0px) grayscale(0%);*/">
+    <header class="masthead" style="background-image: url('assets/img/pro_design.png');background-position: inherit;/*backdrop-filter: blur(0px) grayscale(0%);-webkit-backdrop-filter: blur(0px) grayscale(0%);*/filter: blur(0px);border-width: 10px;border-style: solid;">
         <div class="pulse animated intro-body">
             <div class="container" style="translate: transform(;justify-content: center;">
-                <div class="row" style="background: var(--bs-border-color-translucent);padding-top: 20px;padding-bottom: 20px;border-radius: 10px;">
+                <div class="row" style="padding-top: 20px;padding-bottom: 20px;border-radius: 10px;">
                     <div class="col-lg-8 mx-auto content-box">
                         <h1 class="text-nowrap fs-1 text-center text-white tada animated brand-heading" style="/*border-radius: -2px;*//*border-color: var(--bs-border-color-translucent);*/">Aniket Khanchi</h1>
                         <p class="text-center intro-text" style="border-radius: 10px;padding-left: 21px;padding-right: 21px;padding-top: 0px;padding-bottom: 0px;font-size: 20px;">I am a Data Scientist, who love to solve problems &amp; debug code (Something I would do in my free time 🙃!!)&nbsp;</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
@@ -44,7 +44,7 @@
     </header>
     <div style="position: relative;">
         <div id="particles-js"></div>
-        <section class="text-center content-section" id="about" style="/*background: var(--bs-black);*/">
+        <section class="text-center content-section" id="about" style="/*background: var(--bs-black);*/margin-top: 0px;padding-top: 100px;padding-bottom: 100px;">
             <div class="container" style="background: var(--bs-black);">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
@@ -56,12 +56,12 @@
                     <div class="col">
                         <div>
                             <ul class="nav nav-tabs" role="tablist" style="justify-content: center;/*align-content: space-around;*/">
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-1">Skills</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-2">Certifications</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Skills</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Certifications</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Courses</a></li>
                             </ul>
                             <div class="tab-content">
-                                <div class="tab-pane" role="tabpanel" id="tab-1" style="margin-top: 20px;/*margin-bottom: 20px;*/">
+                                <div class="tab-pane active" role="tabpanel" id="tab-1" style="margin-top: 20px;/*margin-bottom: 20px;*/">
                                     <div class="row">
                                         <div class="col pulse animated">
                                             <h4 style="color: #42dca3;">Business Intelligence</h4>
@@ -69,19 +69,6 @@
                                                 <li class="text-start">WebFocus</li>
                                                 <li class="text-start">Power BI</li>
                                                 <li class="text-start">Tableau</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col pulse animated">
-                                            <h4 style="color: #42dca3;">DATA SCIENCE</h4>
-                                            <ul>
-                                                <li>Programming Languages: Python, R, Js</li>
-                                                <li>Machine Learning: Supervised Learning, Unsupervised Learning, Regression, Classification, Clustering, Dimensionality Reduction</li>
-                                                <li>Data Manipulation and Analysis: Pandas, NumPy, SQL, Data Cleaning, Exploratory Data Analysis (EDA)</li>
-                                                <li>Data Visualization: Matplotlib, Seaborn</li>
-                                                <li>Statistical Analysis: Hypothesis Testing, Probability Theory, Statistical Modeling</li>
-                                                <li>Natural Language Processing (NLP): Text Mining, Sentiment Analysis</li>
-                                                <li>Deep Learning: TensorFlow, Keras</li>
-                                                <li>Time Series Analysis: ARIMA, Exponential Smoothing</li>
                                             </ul>
                                         </div>
                                         <div class="col pulse animated">
@@ -98,9 +85,22 @@
                                                 <li>Data Warehousing</li>
                                             </ul>
                                         </div>
+                                        <div class="col pulse animated">
+                                            <h4 style="color: #42dca3;">DATA SCIENCE</h4>
+                                            <ul>
+                                                <li>Programming Languages: Python, R, Js</li>
+                                                <li>Machine Learning: Supervised Learning, Unsupervised Learning, Regression, Classification, Clustering, Dimensionality Reduction</li>
+                                                <li>Data Manipulation and Analysis: Pandas, NumPy, SQL, Data Cleaning, Exploratory Data Analysis (EDA)</li>
+                                                <li>Data Visualization: Matplotlib, Seaborn</li>
+                                                <li>Statistical Analysis: Hypothesis Testing, Probability Theory, Statistical Modeling</li>
+                                                <li>Natural Language Processing (NLP): Text Mining, Sentiment Analysis</li>
+                                                <li>Deep Learning: TensorFlow, Keras</li>
+                                                <li>Time Series Analysis: ARIMA, Exponential Smoothing</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane active" role="tabpanel" id="tab-2" style="margin-top: 20px;">
+                                <div class="tab-pane" role="tabpanel" id="tab-2" style="margin-top: 20px;">
                                     <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
                                         <div class="col">
                                             <div><a href="assets/img/Certificates/coursera_ml.png"><img class="img-fluid" src="assets/img/Certificates/coursera_ml.png"></a>
@@ -119,18 +119,18 @@
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div><a href="assets/img/Certificates/coursera_ml.png"><img class="img-fluid" src="assets/img/Certificates/coursera_ml.png"></a>
+                                            <div><a href="assets/img/Certificates/cog_ml.png"><img class="img-fluid" src="assets/img/Certificates/cog_ml.png"></a>
                                                 <div class="py-4">
-                                                    <h4>Machine Learning by standford university - Andrew ng</h4>
+                                                    <h4>Machine Learning with Python</h4>
                                                     <p><strong>Skills&nbsp;</strong>:&nbsp;Logistic Regression,&nbsp;Artificial Neural Network,&nbsp;Machine Learning (ML) Algorithms,&nbsp;Machine Learning (ML) Algorithms</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col">
-                                            <div><a href="assets/img/Certificates/coursera_ml.png"><img class="img-fluid" src="assets/img/Certificates/coursera_ml.png"></a>
+                                            <div><a href="assets/img/Certificates/RL_trading.png"><img class="img-fluid" src="assets/img/Certificates/RL_trading.png"></a>
                                                 <div class="py-4">
-                                                    <h4>Machine Learning by standford university - Andrew ng</h4>
-                                                    <p><strong>Skills&nbsp;</strong>:&nbsp;Logistic Regression,&nbsp;Artificial Neural Network,&nbsp;Machine Learning (ML) Algorithms,&nbsp;Machine Learning (ML) Algorithms</p>
+                                                    <h4>REinforcement Learning for Trading</h4>
+                                                    <p><strong>Skills&nbsp;</strong>:&nbsp;Reinforcement Learning, Artificial Intelligence (AI), Q-Learning, Deep Q-Network (DQN),&nbsp; Trading indicators( Exponential moving averages (EMA), Relative Strength Index (RSI) &amp; etc..)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -202,6 +202,16 @@
                     <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
                         <div class="card">
                             <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                <h4 style="color: var(--bs-black);">Unlocking Success in Trading with Reinforcement Learning</h4>
+                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/project_ai_trading.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                    <p style="color: var(--bs-black);">This project focuses on applying reinforcement learning techniques to develop an automated stock trading system. By leveraging technical indicators and a defined reward function, the project aims to train an intelligent agent capable of making informed decisions on buying, selling, or holding stocks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                        <div class="card">
+                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
                                 <h4 style="color: var(--bs-black);">Predicting House Prices with Regression using Keras and TensorFlow</h4>
                                 <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_real_estate.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
                                     <p style="color: var(--bs-black);">The aim to this project was to Create, train and evaluate neural network models that, after the training, will be able to accurately predict price of a house if provided with some information like the age of the house, geographical location and so on.</p>
@@ -222,6 +232,7 @@
                     <li data-bs-target="#carousel-1" data-bs-slide-to="3"></li>
                     <li data-bs-target="#carousel-1" data-bs-slide-to="4"></li>
                     <li data-bs-target="#carousel-1" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="6"></li>
                 </ol>
             </div>
         </div>
