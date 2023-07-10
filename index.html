@@ -19,7 +19,7 @@
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="border-bottom-width: 0px;padding-top: 0px;padding-bottom: 0px;">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light" id="mainNav" style="border-bottom-width: 0px;padding-top: 0px;padding-bottom: 0px;">
         <div class="container"><a class="navbar-brand" href="#">Aniket Khanchi</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
@@ -58,8 +58,8 @@
                         <div>
                             <ul class="nav nav-tabs" role="tablist" style="justify-content: center;/*align-content: space-around;*/">
                                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-1">Skills</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Certifications</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-3">Courses</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-2">Certifications</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Courses</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Badges</a></li>
                             </ul>
                             <div class="tab-content">
@@ -102,7 +102,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane" role="tabpanel" id="tab-2" style="margin-top: 20px;">
+                                <div class="tab-pane active" role="tabpanel" id="tab-2" style="margin-top: 20px;">
                                     <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 pulse animated">
                                         <div class="col">
                                             <div><a href="assets/img/Certificates/coursera_ml.png"><img class="img-fluid" src="assets/img/Certificates/coursera_ml.png"></a>
@@ -146,7 +146,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane active" role="tabpanel" id="tab-3" style="margin-top: 20px;">
+                                <div class="tab-pane" role="tabpanel" id="tab-3" style="margin-top: 20px;">
                                     <div class="row">
                                         <div class="col pulse animated">
                                             <h4 class="text-start" style="color: #42dca3;">Machine Learning</h4>
@@ -222,85 +222,115 @@
         </section>
         <div class="container py-4 py-xl-5" id="projects">
             <h2 data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" style="text-align: center;" title="Here are the things on which i have spent countless nights.🙃">My PRojects</h2>
-            <div class="carousel slide" data-bs-ride="false" id="carousel-1" style="/*height: 70vh;*/">
-                <div class="carousel-inner">
-                    <div class="carousel-item active slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
-                                <h4 style="color: var(--bs-black);">Trading with Reinforcement Learning</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/project_ai_trading.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">This project focuses on applying reinforcement learning techniques to develop an automated stock trading system. By leveraging technical indicators and a defined reward function, the project aims to train an intelligent agent capable of making informed decisions on buying, selling, or holding stocks.</p>
+            <div id="yo">
+                <ul class="nav nav-tabs" role="tablist" style="justify-content: center;/*align-content: space-around;*/">
+                    <li class="nav-item" role="presentation"><a class="nav-link active text-center" role="tab" data-bs-toggle="tab" id="tab_head1" href="#tabe-1" style="width: 50vh;">Data Science</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-center" role="tab" data-bs-toggle="tab" id="tab_head2" href="#tabe-2" style="width: 50vh;">BI Dashboards</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="tabe-1" style="margin-top: 20px;/*margin-bottom: 20px;*/">
+                        <div class="carousel slide" data-bs-ride="false" id="carousel-1" style="/*height: 70vh;*/">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Trading with Reinforcement Learning</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/project_ai_trading.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">This project focuses on applying reinforcement learning techniques to develop an automated stock trading system. By leveraging technical indicators and a defined reward function, the project aims to train an intelligent agent capable of making informed decisions on buying, selling, or holding stocks.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start">
+                                            <h4 style="color: var(--bs-black);">Forecasting Crypto Portfolios</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_crypto.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">Created a portfolio index that contains diverse cryptocurrencies to track performance and use Machine Learning to forecast the index movement in the near future.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Data Science in Agriculture. Land use classification</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_agri.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">This project comprises of building a classifier and predict land use masks based on it,&nbsp;how land use types can be classified based on aerial and satellite photographs of the earth's surface.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Advanced Classification using Machine Learning in HealthCare</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_health.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">This Project is an application of an advanced analysis of Big Data to the spread of COVID-19 in the world. How to make image recognition of a chest X-ray to provide a diagnosis forecast. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Deploy Neural Network Regularizers to Prevent Overfitting</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_neur.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">To mitigate the overfitting problem of training Machine Learning and Deep Learning models, we use&nbsp;4 different regularization methods to stabilize model performance &amp;&nbsp;Apply regularization using Keras APIs and train neural networks on real-world datasets.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Client behavior classification in Banking</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_bank_cleanup.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">The aim to this project was to&nbsp;make classification of clients &amp; their behavior and visualize the decision tree of a classification model.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Predicting House Prices with Regression using Keras and TensorFlow</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_real_estate.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
+                                                <p style="color: var(--bs-black);">The aim to this project was to Create, train and evaluate neural network models that, after the training, will be able to accurately predict price of a house if provided with some information like the age of the house, geographical location and so on.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev" style="padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;width: 50px;"><span class="carousel-control-prev-icon" style="background-image: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-left-square" style="background: var(--bs-body-color);font-size: 30px;">
+                                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"></path>
+                                        </svg></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next" style="width: 50px;"><span class="carousel-control-next-icon" style="background-image: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right-square" style="background: var(--bs-body-color);font-size: 30px;">
+                                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
+                                        </svg></span><span class="visually-hidden">Next</span></a></div>
+                            <div class="carousel-indicators" style="background: #42dca3;"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="3"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="4"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="5"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="6"></button></div>
                         </div>
                     </div>
-                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start">
-                                <h4 style="color: var(--bs-black);">Forecasting Crypto Portfolios</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_crypto.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">Created a portfolio index that contains diverse cryptocurrencies to track performance and use Machine Learning to forecast the index movement in the near future.</p>
+                    <div class="tab-pane" role="tabpanel" id="tabe-2" style="margin-top: 20px;">
+                        <div class="carousel slide" data-bs-ride="false" id="carousel-2" style="/*height: 70vh;*/">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
+                                    <div class="card">
+                                        <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
+                                            <h4 style="color: var(--bs-black);">Work in Progress...</h4>
+                                            <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
-                                <h4 style="color: var(--bs-black);">Data Science in Agriculture. Land use classification</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_agri.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">This project comprises of building a classifier and predict land use masks based on it,&nbsp;how land use types can be classified based on aerial and satellite photographs of the earth's surface.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
-                                <h4 style="color: var(--bs-black);">Advanced Classification using Machine Learning in HealthCare</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_health.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">This Project is an application of an advanced analysis of Big Data to the spread of COVID-19 in the world. How to make image recognition of a chest X-ray to provide a diagnosis forecast. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
-                                <h4 style="color: var(--bs-black);">Deploy Neural Network Regularizers to Prevent Overfitting</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_neur.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">To mitigate the overfitting problem of training Machine Learning and Deep Learning models, we use&nbsp;4 different regularization methods to stabilize model performance &amp;&nbsp;Apply regularization using Keras APIs and train neural networks on real-world datasets.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
-                                <h4 style="color: var(--bs-black);">Client behavior classification in Banking</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_bank_cleanup.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">The aim to this project was to&nbsp;make classification of clients &amp; their behavior and visualize the decision tree of a classification model.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item slide-carr" style="background: var(--bs-white);text-align: center;justify-content: center;align-content: center;padding-left: 45px;padding-right: 45px;">
-                        <div class="card">
-                            <div class="card-body justify-content-xl-end align-items-xl-start" style="/*justify-content: center;*//*text-align: center;*//*align-items: center !important;*/">
-                                <h4 style="color: var(--bs-black);">Predicting House Prices with Regression using Keras and TensorFlow</h4>
-                                <div style="height: auto;overflow: hidden;margin-left: 0px;margin-right: 0px;margin-top: 15px;margin-bottom: 15px;"><img src="assets/img/Projects/Project_real_estate.png" style="/*object-fit: scale-down;*/object-fit: cover;width: 500px !important;">
-                                    <p style="color: var(--bs-black);">The aim to this project was to Create, train and evaluate neural network models that, after the training, will be able to accurately predict price of a house if provided with some information like the age of the house, geographical location and so on.</p>
-                                </div>
-                            </div>
+                            <div><a class="carousel-control-prev" href="#carousel-2" role="button" data-bs-slide="prev" style="padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;width: 50px;"><span class="carousel-control-prev-icon" style="background-image: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-left-square" style="background: var(--bs-body-color);font-size: 30px;">
+                                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"></path>
+                                        </svg></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-2" role="button" data-bs-slide="next" style="width: 50px;"><span class="carousel-control-next-icon" style="background-image: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right-square" style="background: var(--bs-body-color);font-size: 30px;">
+                                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
+                                        </svg></span><span class="visually-hidden">Next</span></a></div>
+                            <div class="carousel-indicators" style="background: #42dca3;"><button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active"></button></div>
                         </div>
                     </div>
                 </div>
-                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev" style="padding-left: 0px;padding-right: 0px;margin-left: 0px;margin-right: 0px;width: 50px;"><span class="carousel-control-prev-icon" style="background-image: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-left-square" style="background: var(--bs-body-color);font-size: 30px;">
-                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"></path>
-                            </svg></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next" style="width: 50px;"><span class="carousel-control-next-icon" style="background-image: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right-square" style="background: var(--bs-body-color);font-size: 30px;">
-                                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path>
-                            </svg></span><span class="visually-hidden">Next</span></a></div>
-                <div class="carousel-indicators" style="background: #42dca3;"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="3"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="4"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="5"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="6"></button></div>
             </div>
         </div>
         <div class="container text-white bg-primary border rounded border-0 p-4 p-lg-5 py-4 py-xl-5" id="accomplishments" style="/*background: var(--bs-blue);*/">
