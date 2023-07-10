@@ -13,3 +13,9 @@
   }
 }
 
+@media (max-width: 600px) {
+  #tab_head1, #tab_head2 {
+    width: 130px !important;
+  }
+}
+
