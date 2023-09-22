@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("#type_span");
-const words = ["A Data Scientist who analyze, and interpret data to help solve real-world problems", "A BI Developer who cummunicate Insights", "A UI/UX Designer who design visually appealing and user-friendly interfaces.", "Just a guy who loves to code 🙃!!!"];
+const words = ["A Data Scientist who analyzes, and interprets data to help solve real-world problems", "A BI Developer who communicate Insights", "A UI/UX Designer who design visually appealing and user-friendly interfaces.", "Just a guy who loves to code 🙃!!!"];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
